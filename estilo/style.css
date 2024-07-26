@@ -32,38 +32,65 @@ body {
 }
 
 header {
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor0));
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
 header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
     color: white;
-    text-align: center;
+    max-width: 600px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
 nav {
-    background-color: var(--cor4);
-    text-align: center;
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.438);
+    transition-duration: .5s;
 }
 
-main {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
 
-    min-width: 320px;
+nav >a:hover {
+    background-color: var(--cor4);
+}
+main {
+    min-width: 280px;
     max-width: 800px;
     margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 img {
     width: 50%;
+    display: block;
     margin: auto;
     
 }
