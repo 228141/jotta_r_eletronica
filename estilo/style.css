@@ -39,18 +39,33 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    text-align: center;
 }
 
 header > p {
     color: white;
+    text-align: center;
 }
 
 nav {
     background-color: var(--cor4);
+    text-align: center;
 }
 
 main {
     background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    width: 50%;
+    margin: auto;
+    
 }
 
 main h1 {
